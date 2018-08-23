@@ -1,0 +1,47 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CheckpointJS</title>
+    <link rel="stylesheet" href="css/CheckpointJS.css">
+
+
+</head>
+
+
+<body>
+
+    <h1 style="font-size: 8vw">Let's edit your crappy text</h1>
+
+    <button id="btn1"type="button" onclick="bold()" >Gras</button>
+    <button id="btn2" type="button" onclick="italic()">Italique</button>
+    
+    <select id="btn3" onchange="changefontSize()">
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="40">40</option>
+    </select>
+    <select id="btn4" onchange="changefontFamily()">
+        <option value="arial">Arial</option>
+        <option value="graphik light">Graphik Light</option>
+        <option value="Times New Roman", Times, serif>Times New Roman</option>
+      </select>
+    
+    <button id="btn5" type="button" onclick="Underline()">underline</button>
+    <button id="btn6" type="button"onclick="Overline()">overline</button>
+    <button id="btn7" type="button" onclick="changeColor()">change color</button>
+    <button id="btn8" type="button" onclick="Justify()">Justify</button>
+    
+   <div class="div1">
+     <textarea id="txt">Type your crappy text here ..</textarea>
+  
+   </div>
+
+
+</body>
+<script src="js/CheckpointJS.js"></script>
+</html>
+
